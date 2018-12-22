@@ -1,12 +1,15 @@
+
+// Programmer: Shamim Chowdhury
+//  Website name : www.taxifare.us
 package com.test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 //comment the above line and uncomment below line to use Chrome
 //import org.openqa.selenium.chrome.ChromeDriver;
+//
 public class PG1 {
-
-
     public static void main(String[] args) {
         // declaration and instantiation of objects/variables
         System.setProperty("webdriver.gecko.driver", "/Users/shamimchy/Documents/geckodriver");
