@@ -36,7 +36,7 @@ public class Base {
 
         webDriver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
         webDriver.navigate().to(url);
-        System.out.print(" Current URL /////  "+webDriver.getCurrentUrl());
+        System.out.println(" Current URL /////  "+webDriver.getCurrentUrl());
         webDriver.manage().window().maximize();
 
     }

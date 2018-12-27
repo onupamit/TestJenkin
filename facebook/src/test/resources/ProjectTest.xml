@@ -10,7 +10,7 @@
     <!--<parameter name="browser" value="firefox"/>-->
     <!--<parameter name="browserVersion" value="43.0"/>-->
 
-    <parameter name="url" value="http://www.facebook.com"/>
+    <parameter name="url" value="http://www.google.com"/>
 
     <test name = "News Collection Test">
         <classes>
