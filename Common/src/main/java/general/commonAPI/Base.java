@@ -25,7 +25,7 @@ public class Base {
     @Parameters({"url"})
     @BeforeMethod
     public void setUp(String url){
-        System.setProperty("webdriver.gecko.driver", "/Users/shamimchy/Documents/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/Users/shamimchy/Downloads/TestJenkin/WDriver/geckodriver");
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);
 
